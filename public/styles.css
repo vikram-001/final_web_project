@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+}
+
+.heading {
+  font-size: 22px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+.btn {
+  padding: 12px;
+  width: 160px;
+  letter-spacing: 2px;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  margin: 10px;
+}
+
+.top-box {
+  text-align: center;
+  padding: 3%;
+}
+
+.middle-box {
+  text-align: left;
+  padding:0 8% 0 5%;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+}
+
+.content {
+  color: #373640;
+  letter-spacing: 2px;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+/* copied styles from about us */
+.nav-bar {
+  background-color: white;
+  background-color: #eeebdd;
+  color: #2978b5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.nav-heading {
+  margin: 0px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.nav-bar-items {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+.nav-bar-links {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.footer-tags {
+  background: white;
+  padding: 15px;
+  border-radius: 50%;
+  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-tags:hover {
+  color: blue;
+}
+
+.footer-links {
+  text-decoration: none;
+  margin: 25px;
+  padding: 10px 0px 20px 0px;
+  color: black;
+  font-size: 17px;
+}
+
+.footer {
+  background-color: #eeebdd;
+  text-align: center;
+  padding-top: 50px;
+  width: auto;
+  height: 200px;
+}
+
+a:hover {
+  color: #c70039;
+  transition: all 0.5s ease-in-out;
+}
